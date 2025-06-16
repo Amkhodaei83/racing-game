@@ -44,27 +44,30 @@ Here are some glimpses of the game in action:
 
 ### Installation
 
-You can get a copy of the project up and running on your local machine in a couple of ways:
+You can get a copy of the project up and running on your local machine in one of two ways:
 
-1.  **Download Latest Release:**
-    Download the latest stable release directly from the [Releases section](https://github.com/Amkhodaei83/racing-game/releases).
+1. **Download the Latest Release**  
+   Visit the [Releases section](https://github.com/Amkhodaei83/racing-game/releases), download the latest `.zip` file, extract it, and double-click `run_gta_vi.bat` to launch the game.
 
-2.  **Clone and Compile Manually:**
-    Clone the repository and build the project using Maven:
+2. **Clone, Build, and Run Manually**  
+   First, clone the repository:
 
-    ```bash
-    git clone https://github.com/Amkhodaei83/racing-game.git
-    cd racing-game
-    mvn clean install
-    ```
+   ```bash
+   git clone https://github.com/Amkhodaei83/racing-game.git
+   cd racing-game
+   ```
 
-### Running the Game
+   Then build the project with Maven:
 
-After installation, you can run the game using Maven:
+   ```bash
+   mvn clean install
+   ```
 
-```bash
-mvn exec:java
-```
+   Finally, run the game:
+
+   ```bash
+   mvn exec:java
+   ```
 
 ## User Guide (Key Controls)
 
