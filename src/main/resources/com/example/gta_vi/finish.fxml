@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: #0c0f27; -fx-font-family: 'Comic Sans MS';" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gta_vi.finish">
+   <children>
+      <Label layoutX="122.0" layoutY="60.0" prefHeight="40.0" prefWidth="147.0" style="-fx-font-size: 25px; -fx-font-family: 'Comic Sans MS'; -fx-alignment: CENTER;" text="Your Score" textFill="#a9ff70">
+      </Label>
+      <Label fx:id="score" layoutX="304.0" layoutY="40.0" prefHeight="80.0" prefWidth="223.0" style="-fx-font-size: 25px; -fx-font-family: 'Comic Sans MS'; -fx-alignment: CENTER;" textAlignment="CENTER" textFill="#a9ff70">
+      </Label>
+      <Button fx:id="menu" layoutX="145.0" layoutY="140.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="88.0" style="-fx-background-color: #e67e22; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #d35400; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Menu">
+      </Button>
+      <Button fx:id="start" layoutX="376.0" layoutY="140.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="88.0" style="-fx-background-color: #3498db; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #2980b9; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Play Again">
+      </Button>
+   </children>
+</Pane>

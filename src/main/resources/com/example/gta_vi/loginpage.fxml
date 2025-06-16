@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" prefHeight="150.0" prefWidth="300.0" style="-fx-background-color: #0c0f27; -fx-font-family: 'Comic Sans MS';" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gta_vi.start">
+   <children>
+      <TextField fx:id="username" layoutX="141.0" layoutY="25.0" prefHeight="25.0" prefWidth="141.0" promptText="Enter Username" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <TextField fx:id="password" layoutX="141.0" layoutY="63.0" prefHeight="25.0" prefWidth="141.0" promptText="Enter Password" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <Button fx:id="login" layoutX="51.0" layoutY="111.0" mnemonicParsing="false" style="-fx-background-color: #22c55e; -fx-text-fill: #0c0f27; -fx-font-weight: bold; -fx-border-color: #16a34a; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Log In" />
+      <Label layoutX="37.0" layoutY="29.0" text="Username:" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label layoutX="38.0" layoutY="67.0" text="Password:" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Button fx:id="signin" layoutX="186.0" layoutY="111.0" mnemonicParsing="false" style="-fx-background-color: #2563eb; -fx-text-fill: #0c0f27; -fx-font-weight: bold; -fx-border-color: #1d4ed8; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Sign up" />
+      <Label fx:id="label" layoutX="74.0" layoutY="94.0" prefHeight="17.0" prefWidth="135.0" textFill="#ff0000" style="-fx-font-family: 'Comic Sans MS';" />
+   </children>
+</Pane>

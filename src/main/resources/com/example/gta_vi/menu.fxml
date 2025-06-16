@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane fx:id="pane" prefHeight="960.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gta_vi.menucontroller">
+   <children>
+      <Button fx:id="START" layoutX="137.0" layoutY="804.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="267.0" style="-fx-background-color: #22c55e; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #16a34a; -fx-border-width: 2px; -fx-font-size: 23px; -fx-font-family: 'Comic Sans MS';" text="START" textAlignment="CENTER">
+      </Button>
+      <Button fx:id="changeplayer" layoutX="283.0" layoutY="897.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="111.0" style="-fx-background-color: #3498db; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #2980b9; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Change Player" textAlignment="CENTER">
+      </Button>
+      <Button fx:id="scores" layoutX="415.0" layoutY="897.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="111.0" style="-fx-background-color: #9b59b6; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #8e44ad; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Scores">
+      </Button>
+      <Button fx:id="newplayer" layoutX="147.0" layoutY="897.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="111.0" style="-fx-background-color: #e74c3c; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #c0392b; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="New Player" textAlignment="CENTER">
+      </Button>
+      <Label fx:id="player_name" layoutX="147.0" layoutY="765.0" prefHeight="18.0" prefWidth="247.0" style="-fx-font-family: 'Comic Sans MS'; -fx-font-size: 14; -fx-background-color: #aa23ff; -fx-background-radius: 10; -fx-text-fill: #000000; -fx-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="next" layoutX="14.0" layoutY="897.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="111.0" style="-fx-background-color: #f1c40f; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #f39c12; -fx-border-width: 2px; -fx-font-size: 10px; -fx-font-family: 'Comic Sans MS';" text="Next Wallpaper" textAlignment="CENTER">
+      </Button>
+   </children>
+</Pane>

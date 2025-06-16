@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" prefHeight="540.0" prefWidth="540.0" style="-fx-background-color: #0c0f27; -fx-font-family: 'Comic Sans MS';" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gta_vi.new_player">
+   <children>
+      <Button fx:id="save" layoutX="250.0" layoutY="410.0" mnemonicParsing="false" style="-fx-background-color: #22c55e; -fx-text-fill: #ffffff; -fx-font-weight: bold; -fx-border-color: #16a34a; -fx-border-width: 2px; -fx-font-family: 'Comic Sans MS';" text="Save" />
+      <TextField fx:id="username" layoutX="195.0" layoutY="99.0" prefHeight="22.0" prefWidth="149.0" promptText="Username" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <TextField fx:id="email" layoutX="195.0" layoutY="258.0" prefHeight="22.0" prefWidth="149.0" promptText="Email" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <TextField fx:id="national" layoutX="196.0" layoutY="199.0" prefHeight="22.0" prefWidth="149.0" promptText="National Code" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <TextField fx:id="password" layoutX="196.0" layoutY="148.0" prefHeight="22.0" prefWidth="149.0" promptText="Password" style="-fx-prompt-text-fill: #8d8d8d; -fx-text-inner-color: #aa23ff; -fx-font-family: 'Comic Sans MS';" />
+      <Spinner fx:id="age" layoutX="196.0" layoutY="314.0" prefHeight="25.0" prefWidth="149.0" style="-fx-font-family: 'Comic Sans MS'; -fx-text-fill: #a9ff70;" />
+      <Label layoutX="95.0" layoutY="103.0" text="Username" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label layoutX="98.0" layoutY="262.0" text="Email" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label layoutX="91.0" layoutY="203.0" text="National Code" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label layoutX="96.0" layoutY="152.0" text="Password" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label layoutX="102.0" layoutY="318.0" text="Age" textFill="#a9ff70" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label fx:id="lableusername" layoutX="372.0" layoutY="103.0" textFill="#ff0000" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label fx:id="lablepassword" layoutX="372.0" layoutY="152.0" textFill="#ff0000" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label fx:id="lablenationalcode" layoutX="372.0" layoutY="203.0" textFill="#ff0000" style="-fx-font-family: 'Comic Sans MS';" />
+      <Label fx:id="lableemail" layoutX="372.0" layoutY="262.0" textFill="#ff0000" style="-fx-font-family: 'Comic Sans MS';" />
+   </children>
+</Pane>

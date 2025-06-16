@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" prefHeight="540.0" prefWidth="540.0" style="-fx-background-color: #0c0f27; -fx-font-family: 'Comic Sans MS';" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gta_vi.score_table">
+    <children>
+        <TableView fx:id="tableView" layoutX="21.0" layoutY="22.0" prefHeight="489.0" prefWidth="494.0" style="-fx-background-color: #121212; -fx-base: #1c1c1c; -fx-control-inner-background: #1c1c1c; -fx-table-cell-border-color: transparent; -fx-table-header-border-color: #e67e22; -fx-text-fill: #a9ff70;">
+            <columns>
+                <TableColumn fx:id="timeColumn" prefWidth="85.99993705749512" style="-fx-background-color: #34495e; -fx-border-color: #2c3e50; -fx-text-fill: #a9ff70;" text="Time" />
+                <TableColumn fx:id="durationColumn" prefWidth="127.33332061767578" style="-fx-background-color: #34495e; -fx-border-color: #2c3e50; -fx-text-fill: #a9ff70;" text="Duration" />
+                <TableColumn fx:id="scoreColumn" prefWidth="119.33329772949219" style="-fx-background-color: #34495e; -fx-border-color: #2c3e50; -fx-text-fill: #a9ff70;" text="Score" />
+                <TableColumn fx:id="gameConditionColumn" prefWidth="169.33334350585938" style="-fx-background-color: #34495e; -fx-border-color: #2c3e50; -fx-text-fill: #a9ff70;" text="Game Condition" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
