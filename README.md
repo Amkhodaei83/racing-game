@@ -20,9 +20,13 @@ To aid the player, various power-up items can be collected on the track, includi
 
 Here are some glimpses of the game in action:
 
-| ![Menu Screen](menu.png) | ![Gameplay 1](game1.png) | ![Gameplay 2](game2.png) | ![Scoreboard](scores.png) | ![Sign-Up Page](sign_up.png) |
-|--------------------------|--------------------------|---------------------------|---------------------------|------------------------------|
-| Menu                     | Gameplay 1               | Gameplay 2                | Scoreboard                | Sign-Up Page                 |
+| ![Menu Screen](menu.png) | ![Gameplay 1](game1.png) | ![Gameplay 2](game2.png) |
+|--------------------------|--------------------------|---------------------------|
+| Menu                     | Gameplay 1               | Gameplay 2                |
+
+| ![Scoreboard](scores.png) | ![Sign-Up Page](sign_up.png) |
+|---------------------------|------------------------------|
+| Scoreboard                | Sign-Up Page                 |
 
 
 ## Key Features
